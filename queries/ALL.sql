@@ -186,7 +186,4 @@ JOIN transactions t ON t.seller_id = u.id
 JOIN reviews r ON r.transaction_id = t.id AND r.rated_user_id = u.id
 GROUP BY u.id, u.username;
 
-ALTER TABLE users DROP COLUMN rating;
--- or if you want to keep it:
-ALTER TABLE users ALTER COLUMN rating DROP DEFAULT;
 
