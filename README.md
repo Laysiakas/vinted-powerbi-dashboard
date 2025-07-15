@@ -54,7 +54,6 @@ C2C-fashion-marketplace-sql/
 ## 👁️ ER Diagram
 
 ![ERD](./ERD.png)
-![ERD2](./ERD2.png)
 
 *(Includes Users, Listings, Transactions, Reviews, Reports, Messages, Shipping, and Categories)*
 
